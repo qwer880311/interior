@@ -29,9 +29,7 @@ app.post('/api/generate', async (req, res) => {
       },
       body: JSON.stringify({
         version: 'a9758cbf0b45db83a2417322685b459aab3c7fc5f084e557e5fc1e24baf6e6c2',
-        input: {
-          image: imageBase64
-        }
+        input: { image: imageBase64 }
       })
     });
 
